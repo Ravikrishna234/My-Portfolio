@@ -1,0 +1,17 @@
+.rootdiv {
+    width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.social-media-icons {
+    color: white;
+    font-size: 2rem;
+}
+
+.social-media-icons:hover svg {
+    color: #97C8EB;
+}
