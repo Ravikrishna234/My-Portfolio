@@ -12,9 +12,16 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.descriptionBody {
+  background-color: #093A3E;
+}
+.projectBody {
+  background-color: white;
+}
+
 body {
   margin: 0;
-  background-color: #093A3E;
+  /* background-color: #093A3E; */
   /* background-color: #3AAFB9; */
   /* background-color: #97C8EB; */
   /* BA */
