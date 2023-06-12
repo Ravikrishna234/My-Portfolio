@@ -1,0 +1,15 @@
+.description {
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem;
+    position: relative;
+    border-radius: 14px;
+    padding: 1rem;
+    /* background-color: azure; */
+}
+.description h2 {
+    font-size: 2rem;
+    /* color:#3AAFB9; */
+    /* COLOR */
+    color: #64E9EE;
+}

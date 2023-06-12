@@ -1,4 +1,26 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  /* font-family: font-family: 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #093A3E;
+  /* background-color: #3AAFB9; */
+  /* background-color: #97C8EB; */
+  /* BA */
+  /* background-color: #64E9EE; */
+}
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +88,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

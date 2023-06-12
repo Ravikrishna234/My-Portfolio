@@ -3,12 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Layout/Header';
+import Description from './components/Description/Description';
+// import PortfolioHeader from './components/Layout/PortfolioHeader';
+// PortfolioHeader
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <Header></Header>
+      <Header></Header>
+    <main>
+      <Description></Description>
+    </main>
+    {/* <PortfolioHeader></PortfolioHeader> */}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -2,9 +2,16 @@
     top: 0;
     left: 0;
     position: fixed;
+    
     /* position: sticky; */
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 5rem;
+    /* HEIGHT1 */
+    /* height: 80px; */
+    /* padding: 0 20px; */
+    /* padding: 0 20px; */
     width: 100%;
     background-color:#093A3E;
     /* z-index: -1; */
