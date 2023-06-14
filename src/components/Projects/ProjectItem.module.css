@@ -1,0 +1,30 @@
+.item {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin: 2rem; */
+    padding: 1.5rem;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.image {
+    height: 150px;
+    width: 150px;
+    border: 5px rgba(0, 0, 0, 0.25);
+}
+.title {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    ;
+}
+/* .description {
+    color: black;
+} */
+.projectText {
+    line-height: 20px;
+    /* ; */
+}
+.projectTechnology {
+    /* font-weight: 1rem; */
+    font-weight: bold;
+}
