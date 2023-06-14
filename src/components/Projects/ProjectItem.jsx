@@ -14,9 +14,9 @@ function ProjectItem(props){
                 <div className={classes.image}></div>
                 <div className={classes.title}><h3>{props.name}</h3></div>
                 {/* <p className={classes.description2+}>{props.description}</p> */}
-                <div className={classes.projectText}>
+                <div className={classes.projectText} dangerouslySetInnerHTML={{ __html: props.description }}>
                     {/* <p className={classes.description}> */}
-                        {props.description}
+                        {/* {props.description} */}
                     {/* </p> */}
                 </div>
                 <div className={classes.projectTechnology}>

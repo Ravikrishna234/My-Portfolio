@@ -35,6 +35,18 @@ const PROJECT_APPLICATION = [{
     projectImages: [''],
     technologyUsed: 'React JS, CSS 3',
     demoLink: ''
+  }, {
+    id:'nasawebproject',
+    name: 'NASA Celestial Snapshots',
+    // description: 'This web application allows you to fetch information and images related to astronomy'+ <strong>'NASA API'</strong>,
+    description: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>',
+    // briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>.',
+    briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>', 
+    github: 'https://github.com/Ravikrishna234/NASA_Web_Project',
+    projectImages: [''],
+    technologyUsed: 'HTML 5, CSS 3, Javascript',
+    demoLink: 'https://nasa-web-assignment.vercel.app/'
+    // technologiesUsed
   // }, {
   //   id: 'onlinefoodshop',
   //   name: 'Online Food Shop',
