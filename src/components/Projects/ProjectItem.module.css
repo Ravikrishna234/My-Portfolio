@@ -28,3 +28,22 @@
     /* font-weight: 1rem; */
     font-weight: bold;
 }
+.demoButton {
+    margin-top: 10px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+    /* padding: 7px 16px; */
+    padding: 16px 25px;
+    /* ; */
+    font-weight: bold;
+    /* font-size: 2rem; */
+    font-size: 1em;
+}
+.demoButton:hover {
+    background-color: #093A3E;
+    color: white;
+    cursor: pointer;
+}

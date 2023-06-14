@@ -22,7 +22,8 @@ const PROJECT_APPLICATION = [{
     github: 'https://github.com/Ravikrishna234/React-ExpenseTracker',
     projectImages: [''],
     // texr
-    technologyUsed: 'React JS, CSS 3'
+    technologyUsed: 'React JS, CSS 3',
+    demoLink: 'https://lsrlpg.csb.app/'
   }, {
     id: 'onlinefoodshop',
     name: 'Online Food Shop',
@@ -32,7 +33,8 @@ const PROJECT_APPLICATION = [{
                         add favorites to the cart, and effortlessly update their order along the way.`,
     github: 'https://github.com/Ravikrishna234/OnlineFoodShop',
     projectImages: [''],
-    technologyUsed: 'React JS, CSS 3'
+    technologyUsed: 'React JS, CSS 3',
+    demoLink: ''
   // }, {
   //   id: 'onlinefoodshop',
   //   name: 'Online Food Shop',
@@ -74,6 +76,8 @@ function Projects() {
         github={item?.github}
         // technologyUsed={}
         technologiesUsed={item?.technologyUsed}
+        // demoLink: 
+        demoLink={item?.demoLink}
         />
     ));
   });

@@ -23,6 +23,7 @@
     /* min-height: 315px; */
     /* width: 100%; */
     padding: 20px;
+    cursor: pointer;
 }
 .card:hover {
     background-color: #97C8EB;

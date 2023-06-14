@@ -23,6 +23,14 @@ function ProjectItem(props){
                     {/* Technologies Used rs{props,} */}
                    <strong>Technologies Used: </strong> {props.technologiesUsed}
                 </div>
+                {/* <button>,</button> */}
+                {/* <a href=""><button>Demo Link</button></a> */}
+                <div className='row'>
+                    {props.demoLink && <a href={`${props.demoLink}`} target='_blank'><button className={classes.demoButton}>Live Demo</button></a>}
+                    {props.github && <a href={`${props.github}`} target='_blank'><button className={classes.demoButton}>Source Code</button></a>}
+                </div>
+                
+
             {/* </div> */}
         </Card>
         

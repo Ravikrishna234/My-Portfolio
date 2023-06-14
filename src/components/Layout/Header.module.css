@@ -1,7 +1,7 @@
 .header {
     top: 0;
     left: 0;
-    position: fixed;
+    /* position: fixed; */
     
     /* position: sticky; */
     display: flex;
