@@ -3,16 +3,9 @@ import classes from './Projects.module.css';
 import ProjectItem from './ProjectItem';
 import Card from '../UI/Card';
 import image1 from '../../assets/ProjectImages/Project-1-Image-1.png';
-// import imagePaths from '../Images/Images';
-
 
 const PROJECT_APPLICATION = [{
-	// title: 'Frontend',
-// },
   webFrontend: [
-    // {
-    // title: 'Frontend'
-  // }, 
   {
     id: 'expensetracker',
     name: 'Expense Tracker',
@@ -24,7 +17,6 @@ const PROJECT_APPLICATION = [{
                 of all expenses and supports switching between dark and light mode.`,
     github: 'https://github.com/Ravikrishna234/React-ExpenseTracker',
     projectImages: ['Project-1-Image-1.png'],
-    // texr
     technologyUsed: 'React JS, CSS 3',
     demoLink: 'https://lsrlpg.csb.app/'
   }, {
@@ -41,46 +33,18 @@ const PROJECT_APPLICATION = [{
   }, {
     id:'nasawebproject',
     name: 'NASA Celestial Snapshots',
-    // description: 'This web application allows you to fetch information and images related to astronomy'+ <strong>'NASA API'</strong>,
     description: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>',
-    // briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>.',
     briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>', 
     github: 'https://github.com/Ravikrishna234/NASA_Web_Project',
     projectImages: ['Project-3-Image-1.png'],
     technologyUsed: 'HTML 5, CSS 3, Javascript',
     demoLink: 'https://nasa-web-assignment.vercel.app/'
-    // technologiesUsed
-  // }, {
-  //   id: 'onlinefoodshop',
-  //   name: 'Online Food Shop',
-  //   description: 'The Online Food Shop is a React application to explore and manage your favorite dishes.',
-  //   briefDescription: `The Online Food Shop is a React application to explore and manage your favorite dishes.
-  //                       The app offers a seamless user experience for food enthusiasts, allowing them to explore a variety of dishes,
-  //                       add favorites to the cart, and effortlessly update their order along the way.`,
-  //   github: 'https://github.com/Ravikrishna234/OnlineFoodShop',
-  //   projectImages: [''],
-  //   technologyUsed: 'React JS, CSS 3'
-  // }, {
-  //   id: 'onlinefoodshop',
-  //   name: 'Online Food Shop',
-  //   description: 'The Online Food Shop is a React application to explore and manage your favorite dishes.',
-  //   briefDescription: `The Online Food Shop is a React application to explore and manage your favorite dishes.
-  //                       The app offers a seamless user experience for food enthusiasts, allowing them to explore a variety of dishes,
-  //                       add favorites to the cart, and effortlessly update their order along the way.`,
-  //   github: 'https://github.com/Ravikrishna234/OnlineFoodShop',
-  //   projectImages: [''],
-  //   technologyUsed: 'React JS, CSS 3'
-  }],
+	}],
   webFullStack: [{}],
   mobileApplication: [{}],
   machineLearning: [{}]
-  // Mobile: [{}]
-  // Machi
 }]
 function Projects() {
-  // const title_keys = ['webFrontend'];
-  // console.log(imagePaths);
-  // console.log(image1);
   const title_keys = ['webFrontend'] // Object.keys(PROJECT_APPLICATION[0])
   const projectItems = title_keys.flatMap((titleKey) => {
     return Object.values(PROJECT_APPLICATION[0][titleKey]).map((item) => (
@@ -91,11 +55,8 @@ function Projects() {
         description={item?.description}
         briefDescription={item?.briefDescription}
         github={item?.github}
-        // projectImages = 
         projectImages={item?.projectImages}
-        // technologyUsed={}
         technologiesUsed={item?.technologyUsed}
-        // demoLink: 
         demoLink={item?.demoLink}
         />
     ));
@@ -103,97 +64,10 @@ function Projects() {
 
   return (
     <React.Fragment>
-      {/* <div className={classes.projectWrapper}> */}
       <div className={classes.projects}> {/* wrapper */}
-        {/* <div className={classes.projectCard}> cards_wrap  */}
-          {/* <Card> */}
-            {/* <div className={classes.projectItem}> */}
-              {projectItems}
-            {/* </div> card_item */}
-          {/* </Card> */}
-        {/* </div> */}
+      	{projectItems}
       </div>
-      {/* </div> */}
     </React.Fragment>
   );
-  // Object.values(title_keys).map((titlekey) => {
-    /* <section className={classes.projects}> {*/ // wrapper /*} */}
-      // <section className={classes.projects}> {/* */|}
-  //   // const projectItems = Object.values(PROJECT_APPLICATION[0][titlekey]).map((item, index) => {
-  //     // const projectItems = PROJECT_APPLICATION[0][titlekey]).map((item) => {
-  //       const projectItems = PROJECT_APPLICATION[0][titlekey].map((item) => {
-  //     // console.log(item);
-  //     // console.log(index);
-  //     <ProjectItem
-  //       id={item.id}
-  //       key={item.id}
-  //       name={item.name}
-  //       // description={item/}></ProjectItem>
-  //       // description={item.description><?
-  //       description={item.description}
-  //       briefDescription={item.briefDescription}
-  //       github={item.github}></ProjectItem>
-  //   })
-  //   return <React.Fragment>
-  //   <section className={classes.projects}>
-  //     <div className={classes.projectCard}>
-  //       <Card>{projectItems}</Card>
-  //     </div>
-  //   </section>
-  // </React.Fragment>
-  // })
-  // Object.values(title_keys).map((titlekey) => {
-    // const projectItems = PROJECT_APPLICATION.map((item) => {
-      // console.log(Object.values(PROJECT_APPLICATION));
-      // Object.values(PROJECT_APPLICATION).map((element) => {
-        // Object.values(PROJECT_APPLICATION[0]['webFrontend'])
-
-        // console.log(Object.values(PROJECT_APPLICATION[0][title_keys[0]]));
-
-        // Object.values(PROJECT_APPLICATION[0][title_keys[0]]).map((item) => {
-          // console.log(item);
-        // })
-        // console.log9
-        // console.log(element);
-        // console.log(titlekey);
-        // console.log(element[titlekey]);
-        // console.log(element.title_keys[0]);
-      // });
-      // +)
-      // <ProjectItem
-      // id={element[titlekey]}
-      // ></ProjectItem>
-      // const projectItems = titlekey.map((item) => {
-      //   <ProjectItem
-      //   id={item.titlekey.id}
-      //   key={item.titlekey.id}
-      //   name={item.titlekey.name}
-      //   description={item.titlekey.description}
-      //   briefDescription={item.titlekey.briefDescription}
-      //   github={item.titlekey.github}
-      //   images={item.titlekey.projectImages}>
-      // </ProjectItem>
-    // })
-  //   return <React.Fragment>
-  //   <section className={classes.projects}>
-  //     <div className={classes.projectCard}>
-  //       <Card>{projectItems}</Card>
-  //     </div>
-  //   </section>
-  // </React.Fragment>
-      // console.log(item);
-      // <ProjectItem
-      //   id={item.titlekey.id}
-      //   key={item.titlekey.id}
-      //   name={item.titlekey.name}
-      //   description={item.titlekey.description}
-      //   briefDescription={item.titlekey.briefDescription}
-      //   github={item.titlekey.github}
-      //   images={item.titlekey.projectImages}>
-      // </ProjectItem>
-  // })
- 
-// })
-  
 }
 export default Projects;

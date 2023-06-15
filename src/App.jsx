@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Layout/Header';
 import Description from './components/Description/Description';
 import Projects from './components/Projects/Projects';
+// import Skills fro,
+import Skills from './components/Skills/Skills';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
       {/* <Route path="/projects" component={<Projects />} /> */}
       <Route exact path="/" element={<Description />}/>
       <Route path="/projects" element={<Projects />} />
+      <Route path="/skills" element={<Skills />} />
+      {/* <Route path="/skills" element={<Skills />} ?> */}
+      {/* </Route> */}
     </Routes>
   </Router>
   )
@@ -30,7 +35,8 @@ function BodyBackground(props) {
     const body = document.body;
     if(location.pathname == '/') {
       body.classList.add('descriptionBody');
-    } else if(location.pathname == '/projects') {
+    } else {
+    // else if(location.pathname == '/projects') {
       body.classList.add('projectBody');
     }
     // Whenever component gets unmounted and location changes the cleanup function executes
