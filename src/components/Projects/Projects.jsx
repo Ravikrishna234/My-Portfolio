@@ -2,6 +2,9 @@ import React from 'react';
 import classes from './Projects.module.css';
 import ProjectItem from './ProjectItem';
 import Card from '../UI/Card';
+import image1 from '../../assets/ProjectImages/Project-1-Image-1.png';
+// import imagePaths from '../Images/Images';
+
 
 const PROJECT_APPLICATION = [{
 	// title: 'Frontend',
@@ -20,7 +23,7 @@ const PROJECT_APPLICATION = [{
                 You can also filter the expenses by year for a more focused view. Additionally, the application displays a list 
                 of all expenses and supports switching between dark and light mode.`,
     github: 'https://github.com/Ravikrishna234/React-ExpenseTracker',
-    projectImages: [''],
+    projectImages: ['Project-1-Image-1.png'],
     // texr
     technologyUsed: 'React JS, CSS 3',
     demoLink: 'https://lsrlpg.csb.app/'
@@ -32,7 +35,7 @@ const PROJECT_APPLICATION = [{
                         The app offers a seamless user experience for food enthusiasts, allowing them to explore a variety of dishes,
                         add favorites to the cart, and effortlessly update their order along the way.`,
     github: 'https://github.com/Ravikrishna234/OnlineFoodShop',
-    projectImages: [''],
+    projectImages: ['Project-2-Image-1.png'],
     technologyUsed: 'React JS, CSS 3',
     demoLink: ''
   }, {
@@ -43,7 +46,7 @@ const PROJECT_APPLICATION = [{
     // briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>.',
     briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>', 
     github: 'https://github.com/Ravikrishna234/NASA_Web_Project',
-    projectImages: [''],
+    projectImages: ['Project-3-Image-1.png'],
     technologyUsed: 'HTML 5, CSS 3, Javascript',
     demoLink: 'https://nasa-web-assignment.vercel.app/'
     // technologiesUsed
@@ -76,6 +79,8 @@ const PROJECT_APPLICATION = [{
 }]
 function Projects() {
   // const title_keys = ['webFrontend'];
+  // console.log(imagePaths);
+  // console.log(image1);
   const title_keys = ['webFrontend'] // Object.keys(PROJECT_APPLICATION[0])
   const projectItems = title_keys.flatMap((titleKey) => {
     return Object.values(PROJECT_APPLICATION[0][titleKey]).map((item) => (
@@ -86,6 +91,8 @@ function Projects() {
         description={item?.description}
         briefDescription={item?.briefDescription}
         github={item?.github}
+        // projectImages = 
+        projectImages={item?.projectImages}
         // technologyUsed={}
         technologiesUsed={item?.technologyUsed}
         // demoLink: 

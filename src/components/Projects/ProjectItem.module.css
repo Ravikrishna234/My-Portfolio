@@ -1,33 +1,28 @@
-.item {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* margin: 2rem; */
-    padding: 1.5rem;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-}
 .image {
-    height: 150px;
-    width: 150px;
+    height: 20rem;
     border: 5px rgba(0, 0, 0, 0.25);
 }
+
+.projectImage {
+    height: 20rem;
+    width: 100%;
+}
+
 .title {
     padding: 20px 10px;
     font-size: 1.5rem;
-    ;
 }
-/* .description {
-    color: black;
-} */
+
 .projectText {
-    line-height: 20px;
-    /* ; */
+    font-size: 1.2rem;
+    padding: 0 0 10px;
 }
+
 .projectTechnology {
-    /* font-weight: 1rem; */
+    font-size: 1.1rem;
     font-weight: bold;
 }
+
 .demoButton {
     margin-top: 10px;
     margin-right: 20px;
@@ -35,13 +30,11 @@
     border-radius: 14px;
     text-align: center;
     display: inline-block;
-    /* padding: 7px 16px; */
     padding: 16px 25px;
-    /* ; */
     font-weight: bold;
-    /* font-size: 2rem; */
     font-size: 1em;
 }
+
 .demoButton:hover {
     background-color: #093A3E;
     color: white;
