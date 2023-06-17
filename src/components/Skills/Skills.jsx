@@ -3,7 +3,8 @@ import classes from './Skills.module.css';
 // import SkillItem from './SkillItem';
 const SKILL_DICT = {
     programmingLanguages: 'Programming Languages',
-    frameworkLibraries: 'Frameworks and Libraries',
+    frameworkLibraries: 'Machine Learning - Frameworks and Libraries',
+    dataVisualization: 'Data Visualization',
     frontEnd: 'Frontend',
     backEnd: 'Backend',
     databases: 'Databases',
@@ -33,6 +34,13 @@ const SKILL_DICT = {
             skillLink:['https://pandas.pydata.org', '  https://numpy.org',' https://scikit-learn.org','https://www.nltk.org',
             ' https://www.tensorflow.org','https://keras.io','https://opencv.org',' https://www.apachefriends.org/index.html']
         }],
+        dataVisualization:[{
+            id: 's3',
+            skill: 'Microsoft PowerBI, Google Data Studio, Tableau, MS Excel',
+            skillColor: ['#FDB913', '#4285F4', '#FF6F00', '#217346'],
+            skillLink:['https://powerbi.microsoft.com/en-us/','https://marketingplatform.google.com/about/data-studio/',
+            'https://www.tableau.com/','https://www.microsoft.com/en-us/microsoft-365/excel']
+        }],
         // databases:[{
         //     // id: 's2',
         //     id: 's',
@@ -40,7 +48,8 @@ const SKILL_DICT = {
         // }],
         frontEnd:[{
             // id: 's3',
-            id: 's3',
+            // id: 's3',
+            id: 's4',
             skill: 'Angular, React, React-Redux, Node.js, HTML5, CSS3, Javascript',
             skillColor: ['#DD0031','#61DAFB','#764ABC','#339933','#E34F26','#1572B6','#F7DF1E'],
             skillLink:['https://angular.io/', 'https://reactjs.org/','https://react-redux.js.org/',
@@ -50,7 +59,8 @@ const SKILL_DICT = {
         }],
         backEnd:[{
             // id: 's4',
-            id: 's4',
+            // id: 's4',
+            id:'s5',
             skill: 'Node.js, Express.js, hapi.js, Flask, Django, Fast-API, Socket.IO',
             skillColor: ['#68A063','#000000','#7A68A6',' #000000','#092E20','#009485','#010101'],
             skillLink:['https://expressjs.com/','https://hapi.dev/','https://flask.palletsprojects.com/',
@@ -58,7 +68,8 @@ const SKILL_DICT = {
         }],
         databases:[{
             // id: 's2',
-            id: 's5',
+            // id: 's5',
+            id:'s6',
             // skill:'MySQL, MS Sql, SQLite, PostgreSQL','MongoDB',
             skill:'MySQL, MS Sql, SQLite, PostgreSQL, MongoDB',
             // skill:'MySQL, MS Sql, SQLite, PostgreSQL','MongoDB',
@@ -67,14 +78,16 @@ const SKILL_DICT = {
             'https://www.sqlite.org/','https://www.postgresql.org/','https://www.mongodb.com/']
         }],
         tools:[{
-            id: 's6',
-            skill: 'Git, GitLab, GitHub, Bitbucket',
+            // id: 's6',
+            id:'s7',
+            skill: 'Git, GitLab, GitHub, Bitbucket, MS Office Suite',
             skillColor: ['#F05032','#FC6D26','#181717','#205081'],
             skillLink: ['https://git-scm.com/','https://about.gitlab.com/','https://github.com/','https://bitbucket.org/']
         }],
         devops: [{
             // id: 's5',
-            id: 's7',
+            // id: 's7',
+            id:'s8',
             // skill: 'Amazon Web Services(AWS), Microsoft Azure, Container Docker'
             skill: 'Amazon Web Services(AWS), Microsoft Azure,Docker',
             skillColor: ['#FF9900','#0078D4','#0DB7ED'],
@@ -82,7 +95,8 @@ const SKILL_DICT = {
         }],
         testing: [{
             // id: 's5',
-            id: 's8',
+            // id: 's8',
+            id:'s9',
             skill:'Angular(Karma and Jasmine), Selenium',
             skillColor: ['#61DAFB','#43B02A'],
             skillLink: ['https://karma-runner.github.io/','https://www.selenium.dev/']
