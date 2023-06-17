@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import classes from './Projects.module.css';
 import ProjectItem from './ProjectItem';
 import Card from '../UI/Card';
@@ -18,7 +18,11 @@ const PROJECT_APPLICATION = [{
     github: 'https://github.com/Ravikrishna234/React-ExpenseTracker',
     projectImages: ['Project-1-Image-1.png'],
     technologyUsed: 'React JS, CSS 3',
-    demoLink: 'https://lsrlpg.csb.app/'
+    demoLink: 'https://lsrlpg.csb.app/',
+    featured: false
+    // featured: g
+    // featured: False
+    // g
   }, {
     id: 'onlinefoodshop',
     name: 'Online Food Shop',
@@ -29,7 +33,10 @@ const PROJECT_APPLICATION = [{
     github: 'https://github.com/Ravikrishna234/OnlineFoodShop',
     projectImages: ['Project-2-Image-1.png'],
     technologyUsed: 'React JS, CSS 3',
-    demoLink: ''
+    demoLink: '',
+    // featured: False
+    // featured: True
+    featured: true
   }, {
     id:'nasawebproject',
     name: 'NASA Celestial Snapshots',
@@ -38,16 +45,51 @@ const PROJECT_APPLICATION = [{
     github: 'https://github.com/Ravikrishna234/NASA_Web_Project',
     projectImages: ['Project-3-Image-1.png'],
     technologyUsed: 'HTML 5, CSS 3, Javascript',
-    demoLink: 'https://nasa-web-assignment.vercel.app/'
+    demoLink: 'https://nasa-web-assignment.vercel.app/',
+    // featured: False
+    featured: false
 	}],
   webFullStack: [{}],
   mobileApplication: [{}],
   machineLearning: [{}]
 }]
+
 function Projects() {
+  const filteredProjects = () => {
+    setIsFeatured(true);
+  }
+  const filteredAllProjects = () =>{
+    setIsFeatured(false);
+  }
   const title_keys = ['webFrontend'] // Object.keys(PROJECT_APPLICATION[0])
+  // const [featured]
+  // const [isFeatured, setIsFeatured] = useState(False);
+  const [isFeatured, setIsFeatured] = useState(false);
+  // const 
+  // let proh
+  let projectsApplications = {}
+  let featuredButtonClassName = classes.featureButton;
+  let allProjectsButtonClassName = classes.featureButton;
+  allProjectsButtonClassName += `${classes.activeButton}`
+
   const projectItems = title_keys.flatMap((titleKey) => {
-    return Object.values(PROJECT_APPLICATION[0][titleKey]).map((item) => (
+    if(isFeatured){
+        // const 
+        // projectsApplications =  PROJECT_APPLICATION[0][titleKey].filter((project)=> {
+        projectsApplications =  PROJECT_APPLICATION[0][titleKey].filter((project)=> {
+          return project.featured;
+        });
+        featuredButtonClassName += `${classes.activeButton}`
+        // featuredButtonClassName += `${CLASS}` 
+        // featuredButtonfeaturedButtonClassName
+        // projectsApplications
+    } else {
+      projectsApplications = PROJECT_APPLICATION[0][titleKey];
+      // allProjectsButtonClassName = `${classes.featureButton}`
+    }
+
+    return Object.values(projectsApplications).map((item) => (
+    // return Object.values(PROJECT_APPLICATION[0][titleKey]).map((item) => {
       <ProjectItem
         id={item?.id}
         key={item?.id}
@@ -59,14 +101,42 @@ function Projects() {
         technologiesUsed={item?.technologyUsed}
         demoLink={item?.demoLink}
         />
+    // ));
+    // });
     ));
   });
 
   return (
     <React.Fragment>
-      <div className={classes.projects}> {/* wrapper */}
-      	{projectItems}
+      {/* <div className='row'> */}
+      <div className={classes.projects}>
+      <button onClick={filteredProjects} className={`${classes.featureButton} ${isFeatured && classes.activeButton}`}>Featured</button>
+      <button onClick={filteredAllProjects} className={`${classes.featureButton} ${!isFeatured && classes.activeButton}`}>All Projects</button>
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${isFeatured && (classes.activeButton || '') }`}>Featured</button> */}
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${isFeatured ? classes.activeButton : ''}`}>Featured</button> */}
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${!isFeatured ? classes.activeButton : ''}`}>All Projects</button>} */}
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${~isFeatured ? classes.activeButton : ''}`}>All Projects</button> */}
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${!isFeatured && (classes.activeButton || '')}`}>All Projects</button> */}
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${@isFeatured && classes.activeButton}`}>All Projects</button> */}
+      {/* <button onClick={filteredAllProjects} className={`${classes.featureButton} ${}}`} */}
+      {/* <button onClick={filteredProjects} className={`${classes.featureButton}` `${isFeatured && classes.activeButton}`}>Featured</button> */}
+        {/* <button onClick={filteredProjects} className=`{${classes.featureButton}}>Featured</button> */}
+      {/* <button onClick={filteredProjects} className={featuredButtonClassName}>Featured</button> */}
+      {/* <button onClick={filteredAllProjects} className={allProjectsButtonClassName}>All Projects</button> */}
+
+        {/* <button onClick={projectFilter} className={classes.featureButton}>Featured</button>  */}
+        {/* <button onClick={filteredProjects} className={classes.featureButton}>Featured</button> */}
+        {/* <button onClick={filteredAllProjects} className={classes.featureButton}>All Projects</button> */}
+          {/* <div className='row'> */}
+      {/* <div className='row'> */}
+
+        {/* <div className={classes.projectsCards}> wrapper */}
+        <div className={classes.projectCards}>        
+      	  {projectItems}
+        </div>
       </div>
+
+      {/* 4 */}
     </React.Fragment>
   );
 }

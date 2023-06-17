@@ -1,9 +1,19 @@
+/* .projectsCards{ */
 .projects{
-    /* margin-top: 15rem; */
-    /* margin-top: 12rem; */
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
+    margin-top: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
+    /* ' */
+    /* ' */
+    /* margin-bottom: 2rem;; */
+}
+.projectCards {
+      /* </div> */
+
+    /* margin-top: 15rem; */
+    /* margin-top: 12rem; */
+
     /* margin-left: 8rem; */
     /* margin-left: 6rem; */
     /* margin-right: 8rem; */
@@ -30,6 +40,33 @@
 
     /* background-color: white; */
     /* height:100%; */
+}
+.featureButton{
+    /* margin-top: 7rem; */
+    margin-left: 5rem;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+    /* padding: 16px 25px 20px; */
+    padding: 16px 25px;
+    font-weight: bold;
+    /* font-size: 3rem; */
+    /* font-size: 2rem; */
+    /* font-size: 1.8rem; */
+    /* font-size: 1.4rem; */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.featureButton:hover{
+    background-color: #093A3E;
+    color: white;
+    cursor: pointer;
+}
+.activeButton {
+    background-color: #093A3E;
+    color: white;
+    cursor: pointer;
 }
 .projectCard {
     padding: 20px;
@@ -64,5 +101,17 @@ body {
         /* flex-wrap: nowrap; */
         flex-wrap: wrap;
         /* flex-direction: column; */
+    }
+    /* } */
+    /* . */
+    .featureButton{
+        padding: 8px 14px;
+        /* font-size: 0.8321rem; */
+        /* font-size: 0.842rem; */
+        /* `font-size:xo`''; */
+        /* font-size: 0.4rem; */
+        /* font-size: 0.8rem; */
+        /* font-size: 0.9rem; */
+        /* font-size: 1rem; */
     }
 }
