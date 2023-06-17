@@ -20,19 +20,26 @@ const SKILL_DICT = {
             // id:'p1',
             id: 's1',
             // skill: 'JAVA, Python, C',
-            skill: 'Java, Python, C',
-            skillColor:['#007396', '#3776AB', '#A8B9CC'],
-            skillLink: ['https://www.java.com','https://www.python.org','https://www.w3schools.com/c/c_intro.php']
+            skill: 'Java, Python, C, R programming',
+            skillColor:['#007396', '#3776AB', '#A8B9CC','#276DC3'],
+            skillLink: ['https://www.java.com','https://www.python.org','https://www.w3schools.com/c/c_intro.php',
+            'https://www.r-project.org/']
             // skillLink: ['https://www.java.com','https://www.python.org0']
             // skillLink:[' https://www.java.com', ' https://www.python.org','https://www.w3schools.com/c/c_intro.php']
         // }, {
         }],
         frameworkLibraries: [{
             id: 's2',
-            skill: 'Pandas, NumPy, scikit-learn, NLTK, TensorFlow, Keras, Open CV, XAMPP Server',
-            skillColor: ['#150458','#013243','#F7931E','#4E88A4','#FF6F00','#D00000','#5C3EE8','#FB7A24'],
+            // skill: 'Pandas, NumPy, scikit-learn, NLTK, TensorFlow, Keras, Open CV, MatplotLib',
+            skill: 'Pandas, NumPy, scikit-learn, NLTK, TensorFlow, Keras, Open CV, Matplotlib',
+            // , XAMPP Server',
+            skillColor: ['#150458','#013243','#F7931E','#4E88A4','#FF6F00','#D00000','#5C3EE8',
+            // '#FB7A24',
+            '#11557C'],
             skillLink:['https://pandas.pydata.org', '  https://numpy.org',' https://scikit-learn.org','https://www.nltk.org',
-            ' https://www.tensorflow.org','https://keras.io','https://opencv.org',' https://www.apachefriends.org/index.html']
+            ' https://www.tensorflow.org','https://keras.io','https://opencv.org',' https://www.apachefriends.org/index.html',
+            // .
+            'https://matplotlib.org/']
         }],
         dataVisualization:[{
             id: 's3',
@@ -50,11 +57,16 @@ const SKILL_DICT = {
             // id: 's3',
             // id: 's3',
             id: 's4',
-            skill: 'Angular, React, React-Redux, Node.js, HTML5, CSS3, Javascript',
-            skillColor: ['#DD0031','#61DAFB','#764ABC','#339933','#E34F26','#1572B6','#F7DF1E'],
+            // skill: 'Angular, React, React-Redux, Node.js,pjp HTML5, CSS3, Javascript',
+            skill: 'Angular, React, React-Redux, Node.js, php, HTML5, CSS3, Javascript',
+            // m
+            skillColor: ['#DD0031','#61DAFB','#764ABC','#339933','#777BB4','#E34F26','#1572B6','#F7DF1E'],
             skillLink:['https://angular.io/', 'https://reactjs.org/','https://react-redux.js.org/',
-            'https://nodejs.org/','https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
-            'https://developer.mozilla.org/en-US/docs/Web/CSS','https://opencv.org',
+            'https://nodejs.org/','https://www.php.net/',
+            // 'https://www.php.net/manual/en/getting-started.php',
+            'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
+            'https://developer.mozilla.org/en-US/docs/Web/CSS',
+            // 'https://opencv.org',
             'https://developer.mozilla.org/en-US/docs/Web/JavaScript']
         }],
         backEnd:[{
@@ -71,7 +83,7 @@ const SKILL_DICT = {
             // id: 's5',
             id:'s6',
             // skill:'MySQL, MS Sql, SQLite, PostgreSQL','MongoDB',
-            skill:'MySQL, MS Sql, SQLite, PostgreSQL, MongoDB',
+            skill:'Oracle MySQL, MS Sql, SQLite, PostgreSQL, MongoDB',
             // skill:'MySQL, MS Sql, SQLite, PostgreSQL','MongoDB',
             skillColor: ['#4479A1','#CC2927','#003B57','#336791','#13AA52'],
             skillLink: ['https://www.mysql.com/','https://www.microsoft.com/en-us/sql-server/',
