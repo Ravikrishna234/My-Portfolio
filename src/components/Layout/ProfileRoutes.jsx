@@ -26,7 +26,7 @@ function ProfileRoutes(){
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/skills">Skills</Link>
-            <Link to=""></Link>
+            <Link to="/contact">Contact</Link>
             <button className={`${classes.navBtn} ${classes.navCloseBtn}`} onClick={hideNavMenuBar}>
             {/* <button className={`${classes.navBtn} ${classes.navCloseBtn}`} onClick={profileNavMenuBar}></button> */}
                 <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>

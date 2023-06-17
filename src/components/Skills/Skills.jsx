@@ -93,8 +93,12 @@ const SKILL_DICT = {
             // id: 's6',
             id:'s7',
             skill: 'Git, GitLab, GitHub, Bitbucket, MS Office Suite',
-            skillColor: ['#F05032','#FC6D26','#181717','#205081'],
-            skillLink: ['https://git-scm.com/','https://about.gitlab.com/','https://github.com/','https://bitbucket.org/']
+            skillColor: ['#F05032','#FC6D26','#181717','#205081',
+            '#DE3C0D'],
+            // '#F25022'
+            // #de3c0d],
+            skillLink: ['https://git-scm.com/','https://about.gitlab.com/','https://github.com/','https://bitbucket.org/',
+            'https://www.office.com/']
         }],
         devops: [{
             // id: 's5',
