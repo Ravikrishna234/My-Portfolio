@@ -5,6 +5,9 @@ import {faDownload} from '@fortawesome/free-solid-svg-icons';
 // import 
 // import {faDownload} from '@fortawesome/free-brands-svg-icons';
 import {Link} from 'react-router-dom';
+// /''..
+// import {} from '../ass'
+// import '.'
 function Description(){
     return <>
         <div className={classes.description}>
@@ -16,7 +19,7 @@ function Description(){
             <div className={classes.descriptionButton}>
                 {/* <button  */}
                 {/* <a className={classes.downloadButton}> */}
-                <a href="" target="_blank">
+                <a href="src/assets/Ravi's Resume.pdf" target="_blank">
                 {/* // l */}
                     <button className={classes.downloadButton}>Ravi Krishna's Resume
                     <FontAwesomeIcon icon={faDownload} style={{marginLeft:'5px'}}></FontAwesomeIcon>

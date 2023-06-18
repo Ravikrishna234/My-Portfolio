@@ -12,7 +12,10 @@
     /* widthL  */
     /* width: 2o */
     /* width: 20rem; */
-    width: 40rem;
+    /* width: 40rem; */
+    /* width: 25rem; */
+    width: 30rem; /* on multiple projects width: 25rem */
+    /* widthL  */
     /* flex-basis: 30%; */
     display: flex;
     position: relative;

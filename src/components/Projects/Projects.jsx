@@ -20,6 +20,8 @@ const PROJECT_APPLICATION = [{
     technologyUsed: 'React JS, CSS 3',
     demoLink: 'https://lsrlpg.csb.app/',
     featured: false
+    // featured: true
+    // featured: false
     // featured: g
     // featured: False
     // g
@@ -34,9 +36,10 @@ const PROJECT_APPLICATION = [{
     projectImages: ['Project-2-Image-1.png'],
     technologyUsed: 'React JS, CSS 3',
     demoLink: '',
+    featured: true
     // featured: False
     // featured: True
-    featured: true
+    // featured: true
   }, {
     id:'nasawebproject',
     name: 'NASA Celestial Snapshots',
@@ -47,6 +50,8 @@ const PROJECT_APPLICATION = [{
     technologyUsed: 'HTML 5, CSS 3, Javascript',
     demoLink: 'https://nasa-web-assignment.vercel.app/',
     // featured: False
+    // featured: false
+    // featured: true
     featured: false
 	}],
   webFullStack: [{}],
@@ -132,7 +137,8 @@ function Projects() {
       {/* <div className='row'> */}
 
         {/* <div className={classes.projectsCards}> wrapper */}
-        <div className={classes.projectCards}>        
+        <div className={classes.projectCards}>
+          {/* <button onClick={filteredProjects} className={`${classes.featureButton} ${isFeatured && classes.activeButton}`}>Featured</button>       */}
       	  {projectItems}
         </div>
       </div>
