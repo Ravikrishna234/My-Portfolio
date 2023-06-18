@@ -22,3 +22,68 @@ p {
     margin-top: 2rem;
     color: white;
 }
+.descriptionButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadButton{
+    margin-top: 1em;
+    margin-right: 1em;
+    /* padding */
+    border: none;
+    border-radius: 14px;
+    /* ; */
+    text-align: center;
+    font-size: 1rem;
+    background-color: #64E9EE;
+    color: #093A3E;
+    font-weight: bold;
+    /* width: 200px; */
+    /* width: 220px; */
+    padding: 10px 10px;
+    /* ; */
+    /* width: 180px; */
+    /* width: 140px; */
+    /* width: 40px; */
+    /* width:auto; */
+    /* FO */
+    /* color: white; */
+}
+.downloadButton:hover {
+    /* background-color: #093A3E; */
+    background-color: #3AAFB9;
+    color: white;
+    cursor:pointer;
+}
+.contactButton {
+    /* \ */
+    margin-top: 1em;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    word-break: break-word;   
+}
+/* .contactButton:HOVER{} */
+.contactButton:hover{
+    background-color: #97C8EB;
+    cursor:pointer;
+    /* color: white; */
+    /* c */
+    /* color: #64E9EE; */
+    /* 3; */
+    /* color: white; */
+}
+@media screen and (max-width: 768px){
+    .downloadButton{
+        /* font-size: 0.5rem; */
+        /* width: 100px; */
+    }
+    .contactButton{
+
+    }
+}
