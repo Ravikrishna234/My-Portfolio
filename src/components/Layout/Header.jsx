@@ -6,7 +6,7 @@ import ProfileRoutes from './ProfileRoutes';
 function Header() {
     return <React.Fragment>
         <header className={classes.header}>
-            <ProfileRoutes></ProfileRoutes>
+            {/* <ProfileRoutes></ProfileRoutes> */}
             <SocialMediaHandler></SocialMediaHandler>
         </header>
     </React.Fragment>

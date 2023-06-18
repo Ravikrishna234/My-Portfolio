@@ -68,9 +68,9 @@ function Projects() {
   // const 
   // let proh
   let projectsApplications = {}
-  let featuredButtonClassName = classes.featureButton;
-  let allProjectsButtonClassName = classes.featureButton;
-  allProjectsButtonClassName += `${classes.activeButton}`
+  // let featuredButtonClassName = classes.featureButton;
+  // let allProjectsButtonClassName = classes.featureButton;
+  // allProjectsButtonClassName += `${classes.activeButton}`
 
   const projectItems = title_keys.flatMap((titleKey) => {
     if(isFeatured){
@@ -79,7 +79,8 @@ function Projects() {
         projectsApplications =  PROJECT_APPLICATION[0][titleKey].filter((project)=> {
           return project.featured;
         });
-        featuredButtonClassName += `${classes.activeButton}`
+        // });
+        // featuredButtonClassName += `${classes.activeButton}`
         // featuredButtonClassName += `${CLASS}` 
         // featuredButtonfeaturedButtonClassName
         // projectsApplications

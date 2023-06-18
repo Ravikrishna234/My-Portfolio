@@ -1,0 +1,76 @@
+.contactFormWrapper{
+    margin-top: 4rem;
+    margin-left:13rem;
+    margin-right: 13rem;
+}  
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: auto;
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white; 
+  transition: all 0.3s ease-in;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.endFormControl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ .formButton{
+    margin-right: 20px;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 16px 25px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.formButton:hover {
+    background-color: #093A3E;
+    color: white;
+    cursor: pointer;
+}
+.sucessMessage{
+    min-height: fit-content;
+    padding: 16px 25px;
+    border: none;
+    background-color: #97C8EB;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: #093A3E;  
+}
+input[type=text], input[type=email],textarea {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.basicForm {
+  display: flex;
+}
+.rowFormControl{
+  width: 100%;
+}
+@media screen and (max-width:801px){
+    .basicForm {
+        flex-direction: column;
+    }
+    .contactFormWrapper{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
