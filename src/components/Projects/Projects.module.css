@@ -1,64 +1,22 @@
-/* .projectsCards{ */
 .projects{
-    /* margin-top: 8rem; */
     margin-top: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    /* margin-right: 2rem; */
-    /* ' */
-    /* ' */
-    /* margin-bottom: 2rem;; */
 }
 .projectCards {
-      /* </div> */
-
-    /* margin-top: 15rem; */
-    /* margin-top: 12rem; */
-
-    /* margin-left: 8rem; */
-    /* margin-left: 6rem; */
-    /* margin-right: 8rem; */
-    
-    /* ; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* max-width: 30rem; */
-    display: flex;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
+		display: flex;
     justify-content: space-around;
-    /* align-self: start; */
-    /* align-items: center; */
     gap: 1rem;
-    /* width: 100rem; */
-    /* row-gap: 2rem; */
-    /* flex-direction: row-reverse; */
     flex-wrap: wrap;
-    /* overflow-y: auto; */
-    /* gap: 1reml */
-    /* background-color: aqua; */
-    /* width: 70%; */
-
-    /* background-color: white; */
-    /* height:100%; */
 }
 .featureButton{
-    /* margin-top: 7rem; */
-    /* margin-left: 5rem; */
-    /* margin-left:2rem; */
     margin-left:4rem;
-    /* - */
     border: none;
     border-radius: 14px;
     text-align: center;
     display: inline-block;
-    /* padding: 16px 25px 20px; */
     padding: 16px 25px;
     font-weight: bold;
-    /* font-size: 3rem; */
-    /* font-size: 2rem; */
-    /* font-size: 1.8rem; */
-    /* font-size: 1.4rem; */
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
@@ -77,45 +35,15 @@
     width:100%;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
-    /* widthL  */
-
-    /* display: grid; */
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-  /* grid-gap: 2rem;    */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* max-width: 50rem;  */
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-    /* margin: 20px; */
-    /* justify-content: space-between; */
-    /* max-width: 70rem; */
-    /* width: 100%; */
 }
 .projectCard .projectItem{
     padding: 15px 25px;
-    /* width: 25%; */
-}
-body {
-    /* background-color: white; */
 }
 @media (max-width: 768px) {
     .projects{
-        /* flex-wrap: nowrap; */
         flex-wrap: wrap;
-        /* flex-direction: column; */
     }
-    /* } */
-    /* . */
     .featureButton{
         padding: 8px 14px;
-        /* font-size: 0.8321rem; */
-        /* font-size: 0.842rem; */
-        /* `font-size:xo`''; */
-        /* font-size: 0.4rem; */
-        /* font-size: 0.8rem; */
-        /* font-size: 0.9rem; */
-        /* font-size: 1rem; */
     }
 }
