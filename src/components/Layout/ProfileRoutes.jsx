@@ -7,18 +7,34 @@ import { Link } from 'react-router-dom';
 import Projects from '../Projects/Projects';
 function ProfileRoutes(){
     const navBarRef = useRef();
+    const [isNavOpen, setIsNavOpen] = useState(false);
     const profileNavMenuBar = () => {
         // console.log(navBarRef);
-		navBarRef.current.classList.add("responsiveNav");
-        console.log(navBarRef.current);
+        // console.log("open buttonb ");
+		// navBarRef.current.classList.add("responsiveNavOpen");
+        // navBarRef.current.classList.remove('responsiveNavClose');
+        // console.log(navBarRef.current);
+        setIsNavOpen(true);
+
     }
     const hideNavMenuBar = () => {
-        navBarRef.current.classList.remove('responsiveNav');
+        console.log('close button');
+        // navBarRef.current.classList.add('responsiveNavClose');
+        // navBarRef.current.classList.remove('responsiveNavOpen');
+        // /
+        // navBarRef.current.classList.remove('responsiveNavClose');
+        // navBarRef.current.classList.toggle('responsiveNav');
+        // console.log(navBarRef.current.classList);
+        // console.log(navBarRef.current);
+        setIsNavOpen(false);
+
+        // ''
     }
     return <Fragment>
         <h3></h3>
         
-        <nav ref={navBarRef} >
+        <nav className={`${classes.navH} ${isNavOpen && classes.responsiveNavOpen}`}
+>
             {/* <a href="#">Home</a> */}
             {/* <a href="#">Projects</a> */}
             {/* <a href="#">Skills</a> */}
@@ -34,6 +50,7 @@ function ProfileRoutes(){
             
         </nav>
         <button className={`${classes.navBtn} ${classes.navMenuBtn}`} onClick={profileNavMenuBar}>
+        {/* <button className={`${classes.navBtn} ${classes.navMenuBtn}`} onClick={hideNavMenuBar}> */}
             <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
         </button>
     </Fragment>    
