@@ -34,10 +34,10 @@ nav a:hover {
         opacity: 1;
     }
 
-    .responsiveNavClose {
-        transform: translateY(-100vh);
+    /* .responsiveNavClose { */
+        /* transform: translateY(-100vh); */
         /* transition: transform 1s; */
-    }
+    /* } */
     /* nav .responsiveNavOpen { */
     .navH {
         position: fixed;
@@ -54,6 +54,7 @@ nav a:hover {
         background-color: #093A3E;
         transition: 1s;
         transform: translateY(-100vh); 
+        z-index: 9999;
     }
     .responsiveNavOpen {
         transform: translateY(0);
@@ -78,9 +79,16 @@ nav a:hover {
         /* transform: translateY(-100%); */
     /* } */ /**/
     .navCloseBtn {
+        /* position: absolute; */
+        /* position: relative; */
         position: absolute;
-        top: 1.3rem;
-        left: 12rem;
+        top: 1rem;
+        left: 1rem;
+        /* / */
+        /* g */
+        /* ti */
+        /* top: 1.3rem; */
+        /* left: 12rem; */
     }
    .navMenuBtn {
         position: absolute;

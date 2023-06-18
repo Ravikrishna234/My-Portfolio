@@ -18,7 +18,7 @@ function ProfileRoutes(){
 
     }
     const hideNavMenuBar = () => {
-        console.log('close button');
+        // console.log('close button');
         // navBarRef.current.classList.add('responsiveNavClose');
         // navBarRef.current.classList.remove('responsiveNavOpen');
         // /
@@ -43,13 +43,13 @@ function ProfileRoutes(){
             <Link to="/projects">Projects</Link>
             <Link to="/skills">Skills</Link>
             <Link to="/contact">Contact</Link>
-            <button className={`${classes.navBtn} ${classes.navCloseBtn}`} onClick={hideNavMenuBar}>
+            <button className={`${classes.navBtn} ${isNavOpen && classes.navCloseBtn}`} onClick={hideNavMenuBar}>
             {/* <button className={`${classes.navBtn} ${classes.navCloseBtn}`} onClick={profileNavMenuBar}></button> */}
                 <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
             </button>
             
         </nav>
-        <button className={`${classes.navBtn} ${classes.navMenuBtn}`} onClick={profileNavMenuBar}>
+        <button className={`${classes.navBtn} ${!isNavOpen && classes.navMenuBtn}`} onClick={profileNavMenuBar}>
         {/* <button className={`${classes.navBtn} ${classes.navMenuBtn}`} onClick={hideNavMenuBar}> */}
             <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
         </button>
