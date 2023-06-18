@@ -39,10 +39,36 @@ function ProfileRoutes(){
             {/* <a href="#">Projects</a> */}
             {/* <a href="#">Skills</a> */}
             {/* <a href="#">About</a> */}
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/skills">Skills</Link>
-            <Link to="/contact">Contact</Link>
+            {/* <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/">Home</Link>
+            </div>
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/projects">Projects</Link>
+            </div>
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/skills">Skills</Link>
+            </div>
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/contact">Contact</Link>
+            </div> */}
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/">Home</Link>
+            </div>
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/projects">Projects</Link>
+            </div>
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/skills">Skills</Link>
+            </div>
+            <div onClick={()=> setIsNavOpen(false)}>
+                <Link to="/contact">Contact</Link>
+            </div>
+            {/* ></div */}
+            {/* <div onClick={()=> setIsNavOpen(false)}></div> */}
+
+            {/* <Link to="/projects" onClick={()=> setIsNavOpen(true)}>Projects</Link> */}
+            {/* <Link to="/skills" onClick={()=> setIsNavOpen(true)}>Skills</Link> */}
+            {/* <Link to="/contact" onClick={()=> setIsNavOpen(true)}>Contact</Link> */}
             <button className={`${classes.navBtn} ${isNavOpen && classes.navCloseBtn}`} onClick={hideNavMenuBar}>
             {/* <button className={`${classes.navBtn} ${classes.navCloseBtn}`} onClick={profileNavMenuBar}></button> */}
                 <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
