@@ -6,7 +6,7 @@ function ProjectItem(props){
     return <>
         <Card>
           <div className={classes.image}>
-            {props.projectImages[0] && <img className={classes.projectImage} src={`../../assets/ProjectImages/` + `${props.projectImages[0]}`} /> }
+            {props.projectImages[0] && <img className={classes.projectImage} src={`assets/ProjectImages/` + `${props.projectImages[0]}`} /> }
           </div>
           <div className={classes.title}><h3>{props.name}</h3></div>
           <div className={classes.projectText} dangerouslySetInnerHTML={{ __html: props.description }}>
