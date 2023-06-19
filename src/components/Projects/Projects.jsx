@@ -2,7 +2,11 @@ import React,{useState} from 'react';
 import classes from './Projects.module.css';
 import ProjectItem from './ProjectItem';
 import projectImage1 from '../../assets/ProjectImages/Project-1-Image-1.png';
-
+import projectImage2 from '../../assets/ProjectImages/Project-2-Image-1.png';
+import projectImage3 from '../../assets/ProjectImages/Project-3-Image-1.png';
+// 3
+// import projectImage2 from '../../assets/ProjectImages/Project-1-Image-1.png';
+// import projectImage2 from '../../assets/p'
 const PROJECT_APPLICATION = [{
   webFrontend: [
   {
@@ -28,7 +32,8 @@ const PROJECT_APPLICATION = [{
                         The app offers a seamless user experience for food enthusiasts, allowing them to explore a variety of dishes,
                         add favorites to the cart, and effortlessly update their order along the way.`,
     github: 'https://github.com/Ravikrishna234/OnlineFoodShop',
-    projectImages: ['Project-2-Image-1.png'],
+    // projectImages: ['Project-2-Image-1.png'],
+    projectImages: [projectImage2],
     technologyUsed: 'React JS, CSS 3',
     demoLink: 'https://ravi-online-food-shop.vercel.app/',
     featured: true
@@ -38,7 +43,8 @@ const PROJECT_APPLICATION = [{
     description: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>',
     briefDescription: 'This web application allows you to fetch information and images related to astronomy using <b>NASA API.</b>', 
     github: 'https://github.com/Ravikrishna234/NASA_Web_Project',
-    projectImages: ['Project-3-Image-1.png'],
+    // projectImages: ['Project-3-Image-1.png'],
+    projectImages: [projectImage3],
     technologyUsed: 'HTML 5, CSS 3, Javascript',
     demoLink: 'https://nasa-web-assignment.vercel.app/',
     featured: false
