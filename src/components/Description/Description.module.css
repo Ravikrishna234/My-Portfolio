@@ -37,6 +37,7 @@ p {
     background-color: #64E9EE;
     color: #093A3E;
     font-weight: bold;
+    /* width: 220px; */
     padding: 10px 10px;
 }
 .downloadButton:hover {
@@ -51,11 +52,16 @@ p {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-    /* width: 200px; */
+    width: 220px;
     padding: 10px 10px;
     word-break: break-word;   
 }
 .contactButton:hover{
     background-color: #97C8EB;
     cursor:pointer;
+}
+@media screen and (max-width:600px){
+    .contactButton{
+        width: auto;
+    }
 }
