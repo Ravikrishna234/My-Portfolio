@@ -14,13 +14,13 @@ nav a:hover {
 }
 
 .navBtn {
-    padding: 5px;
+    padding: 3px;
     cursor: pointer;
     border: none;
     outline: none;
     visibility: hidden;
     opacity: 0;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -58,6 +58,6 @@ nav a:hover {
         left: 1rem;
     }
     nav a {
-        font-size: 1.5rem;     
+        font-size: 1.5rem;
     }
 }
