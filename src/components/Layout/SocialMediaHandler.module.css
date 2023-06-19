@@ -6,17 +6,14 @@
     top: 15px;
     right: 30px;
 }
-
 .social-media-icons {
     color: white;
-    font-size: 2rem;
-    margin: 5px;
+    font-size: 1.75rem;
+    margin: 5px 5px 0 5px;
 }
-
 .social-media-icons:hover svg {
     color: #97C8EB;
 }
-/* .linkedinTooltip{ */
 .tooltip{
     position: absolute;
     display: none;
@@ -25,23 +22,11 @@
     text-align: center;
     border-radius: 14px;
     width: 120px;
-    /* width: 140px; */
     transform: translateX(-50%);
     font-size: 10px;
-    /* font-size: 18px; */
-    /* font-size: 14px; */
     overflow: hidden;
     text-overflow: ellipsis;
-    /* font-size: 40px; */
-    /* visibility: hidden; */
-    /* display: h`; */
 }
-/* .linkedinTooltip:hover{ */
-    /* .social-media-icons:hover */
-/* .social-media-icons:hover .linkedinTooltip{ */
-    /* .social-media-icons:hover {} */
 .social-media-icons:hover .tooltip{
    display: block;
 }
-/* .linkedinTooltip:hober */
-/* ..linkedinTooltip{} */
