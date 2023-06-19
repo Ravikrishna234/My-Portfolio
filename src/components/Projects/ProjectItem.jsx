@@ -7,7 +7,7 @@ function ProjectItem(props){
         <Card>
           <div className={classes.image}>
             {/* {props.projectImages[0] && <img className={classes.projectImage} src={`../../assets/ProjectImages/` + `${props.projectImages[0]}`} /> } */}
-            {/* {props.projectImages[0] && <img className={classes.projectImage} src={`${1}`}/> */}
+            {/* {props.projectImages[0] && <img className={classes.projectImage} src={`${10}`}/> */}
             {/* {props.projectImages[0] && <img className={classes.projectImage} src=`${props.projectImages[0]}`} /> }  */}
             {props.projectImages[0] && <img className={classes.projectImage} src={`${props.projectImages[0]}`} />}
           </div>
