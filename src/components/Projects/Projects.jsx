@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import classes from './Projects.module.css';
 import ProjectItem from './ProjectItem';
+import projectImage1 from '../../assets/ProjectImages/Project-1-Image-1.png';
 
 const PROJECT_APPLICATION = [{
   webFrontend: [
