@@ -15,7 +15,8 @@ const PROJECT_APPLICATION = [{
                 You can also filter the expenses by year for a more focused view. Additionally, the application displays a list 
                 of all expenses and supports switching between dark and light mode.`,
     github: 'https://github.com/Ravikrishna234/React-ExpenseTracker',
-    projectImages: ['Project-1-Image-1.png'],
+    // projectImages: ['Project-1-Image-1.png'],
+    projectImages: [projectImage1],
     technologyUsed: 'React JS, CSS 3',
     demoLink: 'https://lsrlpg.csb.app/',
     featured: false
