@@ -1,4 +1,4 @@
-.projects{
+.projects {
     margin-top: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -6,12 +6,10 @@
 .projectCards {
 		display: flex;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
 }
-.featureButton{
-    /* margin-left:4rem; */
-    /* margin-left: 2rem; */
+.featureButton {
     margin-left: 1.5rem;
     border: none;
     border-radius: 14px;
@@ -22,7 +20,7 @@
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-.featureButton:hover{
+.featureButton:hover {
     background-color: #093A3E;
     color: white;
     cursor: pointer;
@@ -31,15 +29,6 @@
     background-color: #093A3E;
     color: white;
     cursor: pointer;
-}
-.projectCard {
-    padding: 20px;
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-}
-.projectCard .projectItem{
-    padding: 15px 25px;
 }
 @media (max-width: 768px) {
     .projects{

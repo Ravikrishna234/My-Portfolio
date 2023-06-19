@@ -1,4 +1,3 @@
-
 nav {
 	display: flex;
 	align-items: center;
@@ -23,27 +22,16 @@ nav a:hover {
     opacity: 0;
     font-size: 1.8rem;
 }
-.responsiveNav {
-    /* visibility: hidden; */
-    display: none;
-}
 
 @media only screen and (max-width: 1024px) {
     .navBtn {
         visibility: visible;
         opacity: 1;
     }
-
-    /* .responsiveNavClose { */
-        /* transform: translateY(-100vh); */
-        /* transition: transform 1s; */
-    /* } */
-    /* nav .responsiveNavOpen { */
     .navH {
         position: fixed;
         top: 0;
         left: 0;
-        /* height: 1- */
         height: 100%;
         width: 100%;
         display: flex;
@@ -59,37 +47,11 @@ nav a:hover {
     .responsiveNavOpen {
         transform: translateY(0);
     }
-    /* .responsiveNavOpen {
-        visibility: visible;
-        position: fixed;
-        top: 0;
-        left: 0;
-        /* height: 1- */
-        /* height: 100%; */
-        /* width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-        background-color: #093A3E;
-        transition: 1s;
-        transform: translateY(0); */
-        /* transition: transform 1s; */
-        /* transform: translateY(-100%); */
-    /* } */ /**/
     .navCloseBtn {
-        /* position: absolute; */
-        /* position: relative; */
         position: absolute;
         top: 1rem;
         left: 1rem;
-        /* / */
-        /* g */
-        /* ti */
-        /* top: 1.3rem; */
-        /* left: 12rem; */
-    }
+}
    .navMenuBtn {
         position: absolute;
         top: 1rem;
