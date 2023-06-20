@@ -8,7 +8,8 @@ function SocialMediaHandler(){
     return <React.Fragment>
         <div className= {classes['rootdiv']}>
             <a 
-                href="src/assets/Ravi's Resume.pdf" 
+                // href="src/assets/Ravi's Resume.pdf"
+                href="files/Ravi's Resume.pdf"
                 target="_blank"
                 className={classes['social-media-icons']} download>
                 <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>

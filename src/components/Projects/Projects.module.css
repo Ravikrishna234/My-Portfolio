@@ -33,6 +33,8 @@
 @media (max-width: 768px) {
     .projects{
         flex-wrap: wrap;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .featureButton{
         padding: 8px 14px;
