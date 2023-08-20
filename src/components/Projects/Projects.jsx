@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useCallback, useState} from 'react';
 import classes from './Projects.module.css';
 import ProjectItem from './ProjectItem';
 import projectImage1 from '../../assets/ProjectImages/Project-1-Image-1.png';
@@ -56,10 +56,14 @@ const PROJECT_APPLICATION = [{
 
 function Projects() {
   const filteredProjects = () => {
-    setIsFeatured(true);
-  }
-  const filteredAllProjects = () =>{
-    setIsFeatured(false);
+    if(!isFeatured){
+      setIsFeatured(true);
+    }
+  };
+  const filteredAllProjects = () => {
+    if(isFeatured){
+      setIsFeatured(false);
+    }
   }
   const title_keys = ['webFrontend'] // Object.keys(PROJECT_APPLICATION[0])
   const [isFeatured, setIsFeatured] = useState(false);
