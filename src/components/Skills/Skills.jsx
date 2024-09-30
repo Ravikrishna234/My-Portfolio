@@ -15,7 +15,7 @@ const SKILL_DICT = {
     const SKILLS = [{
         programmingLanguages:[{
             id: 's1',
-            skill: 'Java, Python, C, R programming',
+            skill: 'C#,Java, Python, C, R programming',
             skillColor:['#007396', '#3776AB', '#A8B9CC','#276DC3'],
             skillLink: ['https://www.java.com','https://www.python.org','https://www.w3schools.com/c/c_intro.php',
             'https://www.r-project.org/']
@@ -24,7 +24,7 @@ const SKILL_DICT = {
             id: 's2',
             skill: 'Pandas, NumPy, scikit-learn, NLTK, TensorFlow, Keras, Open CV, Matplotlib',
             skillColor: ['#150458','#013243','#F7931E','#4E88A4','#FF6F00','#D00000','#5C3EE8',
-            '#11557C'],
+            '#11557C','#5C3EE8','#11557C'],
             skillLink:['https://pandas.pydata.org', '  https://numpy.org',' https://scikit-learn.org','https://www.nltk.org',
             ' https://www.tensorflow.org','https://keras.io','https://opencv.org',' https://www.apachefriends.org/index.html',
             'https://matplotlib.org/']
@@ -38,9 +38,10 @@ const SKILL_DICT = {
         }],
         frontEnd:[{
             id: 's4',
-            skill: 'Angular, React, React-Redux, Node.js, php, HTML5, CSS3, Javascript',
+            skill: 'Angular, React, Vue, Vuex, Quasar, React-Redux, Node.js, php, HTML5, CSS3, Javascript',
             skillColor: ['#DD0031','#61DAFB','#764ABC','#339933','#777BB4','#E34F26','#1572B6','#F7DF1E'],
-            skillLink:['https://angular.io/', 'https://reactjs.org/','https://react-redux.js.org/',
+            skillLink:['https://angular.io/', 'https://reactjs.org/','https://vuejs.org/','https://vuex.vuejs.org/' ,'https://quasar.dev/',
+                'https://react-redux.js.org/',
             'https://nodejs.org/','https://www.php.net/',
             'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
             'https://developer.mozilla.org/en-US/docs/Web/CSS',
@@ -48,9 +49,9 @@ const SKILL_DICT = {
         }],
         backEnd:[{
             id:'s5',
-            skill: 'Node.js, Express.js, hapi.js, Flask, Django, Fast-API, Socket.IO',
+            skill: '.NET Core, ASP.NET MVC,Node.js, Express.js, hapi.js, Flask, Django, Fast-API, Socket.IO',
             skillColor: ['#68A063','#000000','#7A68A6',' #000000','#092E20','#009485','#010101'],
-            skillLink:['https://expressjs.com/','https://hapi.dev/','https://flask.palletsprojects.com/',
+            skillLink:['https://dotnet.microsoft.com/en-us/apps/aspnet','https://dotnet.microsoft.com/en-us/apps/aspnet/mvc','https://expressjs.com/','https://hapi.dev/','https://flask.palletsprojects.com/',
             'https://www.djangoproject.com/','https://fastapi.tiangolo.com/','https://socket.io/']
         }],
         databases:[{
@@ -62,11 +63,11 @@ const SKILL_DICT = {
         }],
         tools:[{
             id:'s7',
-            skill: 'Git, GitLab, GitHub, Bitbucket, MS Office Suite',
+            skill: 'Git, GitLab, GitHub, Bitbucket, MS Office Suite,SharePoint',
             skillColor: ['#F05032','#FC6D26','#181717','#205081',
-            '#DE3C0D'],
+            '#DE3C0D','#DE3C0D'],
             skillLink: ['https://git-scm.com/','https://about.gitlab.com/','https://github.com/','https://bitbucket.org/',
-            'https://www.office.com/']
+            'https://www.office.com/','https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration']
         }],
         devops: [{
             id:'s8',

@@ -20,9 +20,9 @@ function ProfileRoutes(){
             <div onClick={()=> setIsNavOpen(false)}>
                 <Link to="/">Home</Link>
             </div>
-            <div onClick={()=> setIsNavOpen(false)}>
+            {/* <div onClick={()=> setIsNavOpen(false)}>
                 <Link to="/projects">Projects</Link>
-            </div>
+            </div> */}
             <div onClick={()=> setIsNavOpen(false)}>
                 <Link to="/skills">Skills</Link>
             </div>

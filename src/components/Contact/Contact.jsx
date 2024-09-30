@@ -17,7 +17,7 @@ function Contact(){
                 <a 
                     className={classes.email} 
                     href="">
-                        rxdontula@shockers.wichita.edu
+                         ravikrishnad.work@gmail.com
                 </a>
             </div>
             <div className={classes.contactCard}>
