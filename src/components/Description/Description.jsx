@@ -12,7 +12,7 @@ function Description(){
             <p>A passionate engineer dedicated to crafting innovative solutions and driven by a desire for continuous growth</p>
             <div className={classes.descriptionButton}>
                 {/* <a href="src/assets/Ravi's Resume.pdf" target="_blank"> */}
-                <a href="files/Ravi's Resume.pdf" target="_blank">
+                <a href="files/Ravi Krishna Full stack .Net Developer.pdf" target="_blank">
                     <button className={classes.downloadButton}>Ravi Krishna's Resume
                     <FontAwesomeIcon icon={faDownload} style={{marginLeft:'5px'}}></FontAwesomeIcon>
                     </button>
