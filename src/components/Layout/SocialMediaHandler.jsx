@@ -9,7 +9,7 @@ function SocialMediaHandler(){
         <div className= {classes['rootdiv']}>
             <a 
                 // href="src/assets/Ravi's Resume.pdf"
-                href="files/Ravi Krishna Full stack .Net Developer.pdf"
+                href="files/RaviKrishna_FullStackDeveloper_Resume.docx"
                 target="_blank"
                 className={classes['social-media-icons']} download>
                 <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
